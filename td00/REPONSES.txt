@@ -1,0 +1,26 @@
+Liam Kormann
+
+4. Apache Maven 3.6.0
+
+5. GroupID représente le groupe à l'orgine du projet, éviter d'avoir deux classes qui ont le même noms et donc certains problèmes de nommage
+ArtifactID représente un identifiant utilisé pour indentifier le projet à construire
+
+6. target contient
+
+8. -cp permet de définir le chemin vers le code à executer
+
+13.
+
+
+Ex3
+
+3. la méthode System.out.println est proposée
+
+4. La méthode toString est proposée
+
+5. La méthode main est proposée
+
+6. On peut générer le getter et le setter de toto
+
+7. On a la possiblité de renommer la classe ou l'attribut dans toutes leurs occurences respectives
+
