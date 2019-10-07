@@ -1,0 +1,29 @@
+Exercice 1
+
+1. Cela fonctionne car la méthode main() est dans la même classe que les champs privés
+
+2. Cela ne fonctionne pas car la classe TestPoint n'a pas accès directement aux attributs privés de Point. Pour que cela marche, on pourrait utiliser des accesseurs.
+
+3. Il faut que les attributs soient privés afin de limiter leur manipulation par d'autres classes et ainsi éviter des erreurs 
+
+4. Un accesseur est une méthode écrite dans une classe permettant de récupérer la valeur d'un de ses attributs. Une telle méthode peut être utile ici.
+
+5. Le constructeur vide n'est plus utilisable.
+
+7. On peut utiliser un attribut statique s'incrémentant à chaque nouvel instance de Point.
+
+Exercice 2
+
+1. Ce code affiche true pour System.out.println(p1==p2) car p1 et p2 désignent le même objet tandis que System.out.println(p1==p3) affiche false car p1 et p3 ne pointent pas le même objet, même si leurs attributs sont identiques.
+
+3. L'index de p2 est 0 alors qu'il n'a pas été ajouté directement dans la list, cela peut s'expliquer par le fait que p2 désigne le même objet que p1 qui a été ajouté dans la liste.
+L'index de p3 est -1 car il n'a pas été trouvé dans la liste
+
+Exercice 3
+
+2. Il est possible d'ajouter des points au delà de la limite imposée. Il faut donc faire des vérifications avant d'ajouter des points supplémentaires.
+
+6. pointCapacity est le nombre de points maximum défini dans le constructeur, nbPoints représente le nombre de points dans la liste 
+
+
+

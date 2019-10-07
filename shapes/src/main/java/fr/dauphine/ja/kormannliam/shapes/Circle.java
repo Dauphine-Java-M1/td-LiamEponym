@@ -20,4 +20,6 @@ public class Circle {
 	public String toString() {
 		return ("centre : " + this.centre.toString() + " rayon : " + this.getRayon());
 	}
+	
+	
 }
