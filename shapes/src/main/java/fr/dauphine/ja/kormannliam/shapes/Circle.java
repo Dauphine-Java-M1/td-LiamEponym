@@ -17,6 +17,13 @@ public class Circle {
 		return rayon;
 	}
 	
+	public boolean equals(Circle c) {
+		if(this.getCentre().isSameAs(c.getCentre()) && this.getRayon() == c.getRayon()) {
+			return true;
+		}
+		else return false;
+	}
+	
 	public String toString() {
 		return ("centre : " + this.centre.toString() + " rayon : " + this.getRayon()) + "surface :" + this.surface();
 	}
