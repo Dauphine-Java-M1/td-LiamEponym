@@ -26,4 +26,8 @@ Exercice 3
 6. pointCapacity est le nombre de points maximum défini dans le constructeur, nbPoints représente le nombre de points dans la liste 
 
 
+Exercice 4
 
+5.
+
+6. Il ne faut pas oublier de changer l'object centre du Cercle
