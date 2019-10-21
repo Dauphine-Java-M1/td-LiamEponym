@@ -1,6 +1,6 @@
-package fr.dauphine.ja.kormannliam.shapes;
+package model;
 
-public class Ring {
+public class Ring extends Shape {
 	private Circle cercleExterieur;
 	private int rayonInterieur;
 	

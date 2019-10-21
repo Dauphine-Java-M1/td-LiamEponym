@@ -1,4 +1,4 @@
-package fr.dauphine.ja.kormannliam.shapes;
+package model;
 
 public class RayonInterieurSuperieurException extends Exception {
 

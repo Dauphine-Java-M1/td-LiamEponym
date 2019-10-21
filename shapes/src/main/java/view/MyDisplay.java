@@ -1,5 +1,6 @@
 package view;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 
@@ -17,8 +18,8 @@ public class MyDisplay extends JPanel{
 	}
 	
 	@Override	
-	protected void paintComponent(Graphics arg0) {
-		// TODO Auto-generated method stub
-		super.paintComponent(arg0);
+	protected void paintComponent(Graphics g) {
+		g.setColor(Color.BLACK);
+		g.drawLine(10, 20, 50, 70);
 	}
 }

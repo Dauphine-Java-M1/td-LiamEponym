@@ -1,4 +1,4 @@
-package fr.dauphine.ja.kormannliam.shapes;
+package model;
 
 import java.util.ArrayList;
 

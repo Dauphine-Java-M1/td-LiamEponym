@@ -1,9 +1,9 @@
-package fr.dauphine.ja.kormannliam.shapes;
+package model;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class LigneBrisée {
+public class LigneBrisée extends Shape {
 	private int nbPointsMax;
 	private LinkedList<Point> listePoints;
 	

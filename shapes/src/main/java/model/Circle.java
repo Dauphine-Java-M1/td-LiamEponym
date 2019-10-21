@@ -1,12 +1,16 @@
-package fr.dauphine.ja.kormannliam.shapes;
+package model;
 
-public class Circle {
+import view.CircleDrawer;
+
+public class Circle extends Shape {
 	private Point centre;
 	private int rayon;
+	private CircleDrawer drawer;
 	
 	public Circle(Point centre, int rayon) {
 		this.centre = centre;
 		this.rayon = rayon;
+		this.drawer = new CircleDrawer(this);
 	}
 	
 	public Point getCentre() {
