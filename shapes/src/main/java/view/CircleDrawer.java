@@ -1,8 +1,6 @@
 package view;
 
 import java.awt.Graphics;
-import java.awt.image.AreaAveragingScaleFilter;
-
 import model.Circle;
 import model.Shape;
 

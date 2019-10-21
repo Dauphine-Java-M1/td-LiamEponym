@@ -3,13 +3,17 @@ package model;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
+import view.LigneBriséeDrawer;
+
 public class LigneBrisée extends Shape {
 	private int nbPointsMax;
 	private LinkedList<Point> listePoints;
+	private LigneBriséeDrawer drawer;
 	
 	public LigneBrisée(int nbMax){
 		this.nbPointsMax = nbMax;
-		this.listePoints = new LinkedList<Point>();		
+		this.listePoints = new LinkedList<Point>();	
+		this.drawer = new LigneBriséeDrawer();
 	}
 	
 	public void add(Point p) {
@@ -32,5 +36,19 @@ public class LigneBrisée extends Shape {
 		}
 		return false;
 	}
+
+	public int getNbPointsMax() {
+		return nbPointsMax;
+	}
+
+	public LinkedList<Point> getListePoints() {
+		return listePoints;
+	}
+
+	public LigneBriséeDrawer getDrawer() {
+		return drawer;
+	}
+	
+	
 	
 }
