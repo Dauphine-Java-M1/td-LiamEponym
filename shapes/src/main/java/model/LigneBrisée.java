@@ -8,12 +8,13 @@ import view.LigneBriséeDrawer;
 public class LigneBrisée extends Shape {
 	private int nbPointsMax;
 	private LinkedList<Point> listePoints;
-	private LigneBriséeDrawer drawer;
+	//private LigneBriséeDrawer drawer;
 	
-	public LigneBrisée(int nbMax){
+	public LigneBrisée(int nbMax){		
 		this.nbPointsMax = nbMax;
 		this.listePoints = new LinkedList<Point>();	
 		this.drawer = new LigneBriséeDrawer();
+		this.drawer.setShape(this);
 	}
 	
 	public void add(Point p) {
@@ -45,10 +46,5 @@ public class LigneBrisée extends Shape {
 		return listePoints;
 	}
 
-	public LigneBriséeDrawer getDrawer() {
-		return drawer;
-	}
-	
-	
 	
 }

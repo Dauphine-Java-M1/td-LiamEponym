@@ -1,5 +1,7 @@
 package model;
 
+import view.RingDrawer;
+
 public class Ring extends Shape {
 	private Circle cercleExterieur;
 	private int rayonInterieur;
@@ -15,6 +17,8 @@ public class Ring extends Shape {
 	public Ring(Point p, int rayonExt, int rayonInt) {
 		this.cercleExterieur = new Circle(p, rayonExt);
 		this.rayonInterieur = rayonInt;
+		this.drawer = new RingDrawer();
+		this.drawer.setShape(this);
 	}
 	
 	

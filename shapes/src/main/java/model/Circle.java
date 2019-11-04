@@ -5,12 +5,14 @@ import view.CircleDrawer;
 public class Circle extends Shape {
 	private Point centre;
 	private int rayon;
-	private CircleDrawer drawer;
+	//private CircleDrawer drawer;
 	
-	public Circle(Point centre, int rayon) {
+	public Circle(Point centre, int rayon) {		
 		this.centre = centre;
 		this.rayon = rayon;
-		this.drawer = new CircleDrawer(this);
+		
+		this.drawer = new CircleDrawer();
+		drawer.setShape(this);
 	}
 	
 	public Point getCentre() {
