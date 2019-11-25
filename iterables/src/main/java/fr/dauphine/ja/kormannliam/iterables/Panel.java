@@ -10,7 +10,7 @@ public class Panel extends AbstractList<Integer>{
 		this.lowerBound = lb;
 		this.upperBound = up;
 	}
-	public static Iterator<Integer> panel1(final int lb, final int ub) {
+	public static Iterator<Integer> panel(final int lb, final int ub) {
 		return new Iterator<Integer>() {
 			private int position = lb;
 			
