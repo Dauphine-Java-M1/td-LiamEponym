@@ -29,4 +29,6 @@ public class Ex4 {
 		return lfusion;
 	}
 	
+	//Utiliser les wildcard quand c'est suffisant
+	
 }
